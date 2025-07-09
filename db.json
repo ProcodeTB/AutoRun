@@ -1,25 +1,29 @@
 {
-        
-        "steps": [
-            {
-                "data_auto_id": "690_1653_3968_18618_0_0",
-                "action": "click"
-            },
-            {
-                "data_auto_id": "745_1761_3977_19692",
-                "action": "click"
-            },
-            {
-                "data_auto_id": "save_btn_data_auto_id_502",
-                "action": "click"
-            },
-            {
-                "data_auto_id": "save_btn_data_auto_id_501",
-                "action": "click"
-            },
-            {
-                "data_auto_id": "save_btn_data_auto_id_451",
-                "action": "click"
-            }
-        ]
+  "runs": [
+    {
+      "ws_name": "right",
+      "steps": [
+        {
+          "data_auto_id": "690_1653_3968_18618_0_0",
+          "action": "click"
+        },
+        {
+          "data_auto_id": "745_1761_3977_19692",
+          "action": "click"
+        },
+        {
+          "data_auto_id": "save_btn_data_auto_id_502",
+          "action": "click"
+        },
+        {
+          "data_auto_id": "save_btn_data_auto_id_501",
+          "action": "click"
+        },
+        {
+          "data_auto_id": "save_btn_data_auto_id_451",
+          "action": "click"
+        }
+      ]
+    }
+  ]
 }
