@@ -1,52 +1,68 @@
 {
-  "runs_1": [
+  "id": 1,
+  "name": "AutoRun Table with Button Child",
+  "workstationId": 101,
+  "steps": [
     {
-      "ws_name": "right",
+      "id": 11,
+      "name": "Table Step - Fill Data",
+      "stepActionType": "ON_CLICK",
+      "stepOrder": 1,
+      "autoRunId": 1,
+      "autoRunElementIdentifier": {
+        "id": 1001,
+        "workstationId": 101,
+        "pageId": 201,
+        "pageBlockId": 301,
+        "blockRowCellId": 401,
+        "microBlockRowCellId": 501,
+        "elementItemId": 601,
+        "uiElementName": "TABLE_ELEMENT",
+        "elementItemUniqueId": 901
+      },
+      "stepParentId": null,
       "steps": [
         {
-          "data_auto_id": "690_1653_3968_18618_0_0",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "745_1761_3977_19692",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "save_btn_data_auto_id_502",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "save_btn_data_auto_id_501",
-          "action": "click"
+          "id": 12,
+          "name": "Button Step - Submit",
+          "stepActionType": "ON_NEXT_CLICK",
+          "stepOrder": 1,
+          "autoRunId": 1,
+          "autoRunElementIdentifier": {
+            "id": 1003,
+            "workstationId": 101,
+            "pageId": 203,
+            "pageBlockId": 303,
+            "blockRowCellId": 403,
+            "microBlockRowCellId": 503,
+            "elementItemId": null,
+            "uiElementName": "BUTTON_ELEMENT",
+            "elementItemUniqueId": null
+          },
+          "stepParentId": 11,
+          "steps": []
         }
       ]
-    }
-  ],
-  "runs_2": [
+    },
     {
-      "ws_name": "right",
-      "steps": [
-        {
-          "data_auto_id": "690_1653_3968_18618_0_0",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "745_1761_3977_19692",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "save_btn_data_auto_id_502",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "save_btn_data_auto_id_501",
-          "action": "click"
-        },
-        {
-          "data_auto_id": "save_btn_data_auto_id_451",
-          "action": "click"
-        }
-      ]
+      "id": 13,
+      "name": "Another Table Step",
+      "stepActionType": "ON_WORKSTATION_SAVE",
+      "stepOrder": 2,
+      "autoRunId": 1,
+      "autoRunElementIdentifier": {
+        "id": 1004,
+        "workstationId": 101,
+        "pageId": 204,
+        "pageBlockId": 304,
+        "blockRowCellId": 404,
+        "microBlockRowCellId": 504,
+        "elementItemId": 604,
+        "uiElementName": "TABLE_ELEMENT",
+        "elementItemUniqueId": 902
+      },
+      "stepParentId": null,
+      "steps": []
     }
   ]
 }
