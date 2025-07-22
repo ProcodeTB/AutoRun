@@ -1,68 +1,61 @@
 {
-  "id": 1,
-  "name": "AutoRun Table with Button Child",
-  "workstationId": 101,
-  "steps": [
-    {
-      "id": 11,
-      "name": "Table Step - Fill Data",
-      "stepActionType": "ON_CLICK",
-      "stepOrder": 1,
-      "autoRunId": 1,
-      "autoRunElementIdentifier": {
-        "id": 1001,
-        "workstationId": 101,
-        "pageId": 201,
-        "pageBlockId": 301,
-        "blockRowCellId": 401,
-        "microBlockRowCellId": 501,
-        "elementItemId": 601,
-        "uiElementName": "TABLE_ELEMENT",
-        "elementItemUniqueId": 901
-      },
-      "stepParentId": null,
-      "steps": [
+    "id": 12,
+    "name": "Hro :: AUTO_RUN",
+    "workstationId": 525,
+    "steps": [
         {
-          "id": 12,
-          "name": "Button Step - Submit",
-          "stepActionType": "ON_NEXT_CLICK",
-          "stepOrder": 1,
-          "autoRunId": 1,
-          "autoRunElementIdentifier": {
-            "id": 1003,
-            "workstationId": 101,
-            "pageId": 203,
-            "pageBlockId": 303,
-            "blockRowCellId": 403,
-            "microBlockRowCellId": 503,
-            "elementItemId": null,
-            "uiElementName": "BUTTON_ELEMENT",
-            "elementItemUniqueId": null
-          },
-          "stepParentId": 11,
-          "steps": []
+            "id": 66,
+            "name": "redirect to POP_UP",
+            "stepActionType": "ON_CLICK",
+            "stepOrder": 1,
+            "autoRunId": 12,
+            "autoRunElementIdentifier": {
+                "id": 101,
+                "workstationId": 525,
+                "pageId": 773,
+                "pageBlockId": 1809,
+                "blockRowCellId": 4035,
+                "microBlockRowCellId": 19785,
+                "elementItemId": 1463,
+                "uiElementName": "TABLE_ELEMENT",
+                "elementItemUniqueId": 1464
+            },
+            "createdDate": "Jul 22, 2025 7:30:12 AM"
+        },
+        {
+            "id": 67,
+            "name": "redirect to POP_1",
+            "stepActionType": "ON_CLICK",
+            "stepOrder": 1,
+            "autoRunId": 12,
+            "autoRunElementIdentifier": {
+                "id": 102,
+                "workstationId": 526,
+                "pageId": 774,
+                "pageBlockId": 1806,
+                "blockRowCellId": 4032,
+                "microBlockRowCellId": 19785,
+                "elementItemId": 1463,
+                "uiElementName": "TABLE_ELEMENT",
+                "elementItemUniqueId": 1464
+            },
+            "stepParentId": 66,
+            "createdDate": "Jul 22, 2025 7:31:10 AM"
+        },
+        {
+            "id": 68,
+            "name": "save POP_1",
+            "stepActionType": "ON_WORKSTATION_SAVE",
+            "stepOrder": 1,
+            "autoRunId": 12,
+            "autoRunElementIdentifier": {
+                "id": 103,
+                "workstationId": 501
+            },
+            "stepParentId": 67,
+            "createdDate": "Jul 22, 2025 7:31:39 AM"
         }
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Another Table Step",
-      "stepActionType": "ON_WORKSTATION_SAVE",
-      "stepOrder": 2,
-      "autoRunId": 1,
-      "autoRunElementIdentifier": {
-        "id": 1004,
-        "workstationId": 101,
-        "pageId": 204,
-        "pageBlockId": 304,
-        "blockRowCellId": 404,
-        "microBlockRowCellId": 504,
-        "elementItemId": 604,
-        "uiElementName": "TABLE_ELEMENT",
-        "elementItemUniqueId": 902
-      },
-      "stepParentId": null,
-      "steps": []
-    }
-  ]
+    ],
+    "createdAt": "Jul 22, 2025 7:29:23 AM",
+    "updatedAt": "Jul 22, 2025 7:29:23 AM"
 }
