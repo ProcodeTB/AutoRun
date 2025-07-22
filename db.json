@@ -5,9 +5,9 @@
     "steps": [
         {
             "id": 66,
-            "name": "redirect to POP_UP",
+            "name": "Redirect to POP_UP_1",
             "stepActionType": "ON_CLICK",
-            "stepOrder": 1,
+            "stepOrder": 2,
             "autoRunId": 12,
             "autoRunElementIdentifier": {
                 "id": 101,
@@ -20,42 +20,87 @@
                 "uiElementName": "TABLE_ELEMENT",
                 "elementItemUniqueId": 1464
             },
-            "createdDate": "Jul 22, 2025 7:30:12 AM"
+            "createdDate": "Jul 22, 2025 7:30:12 AM",
+            "steps": [
+                {
+                    "id": 67,
+                    "name": "Redirect to POP_UP_2",
+                    "stepActionType": "ON_CLICK",
+                    "stepOrder": 1,
+                    "autoRunId": 12,
+                    "autoRunElementIdentifier": {
+                        "id": 102,
+                        "workstationId": 526,
+                        "pageId": 774,
+                        "pageBlockId": 1806,
+                        "blockRowCellId": 4032,
+                        "microBlockRowCellId": 19785,
+                        "elementItemId": 1463,
+                        "uiElementName": "TABLE_ELEMENT",
+                        "elementItemUniqueId": 1464
+                    },
+                    "createdDate": "Jul 22, 2025 7:31:10 AM",
+                    "steps": [
+                        {
+                            "id": 97,
+                            "name": "Click on BUTTON_ELEMENT_EL",
+                            "stepActionType": "ON_CLICK",
+                            "stepOrder": 1,
+                            "autoRunId": 12,
+                            "autoRunElementIdentifier": {
+                                "id": 141,
+                                "workstationId": 501,
+                                "pageId": 745,
+                                "pageBlockId": 1761,
+                                "blockRowCellId": 3977,
+                                "microBlockRowCellId": 19692,
+                                "uiElementName": "BUTTON_ELEMENT"
+                            },
+                            "createdDate": "Jul 22, 2025 10:21:18 AM",
+                            "steps": []
+                        },
+                        {
+                            "id": 98,
+                            "name": "Save POP_UP_2",
+                            "stepActionType": "ON_WORKSTATION_SAVE",
+                            "stepOrder": 2,
+                            "autoRunId": 12,
+                            "autoRunElementIdentifier": {
+                                "id": 142,
+                                "workstationId": 501
+                            },
+                            "createdDate": "Jul 22, 2025 10:21:37 AM",
+                            "steps": []
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "id": 67,
-            "name": "redirect to POP_1",
-            "stepActionType": "ON_CLICK",
-            "stepOrder": 1,
-            "autoRunId": 12,
-            "autoRunElementIdentifier": {
-                "id": 102,
-                "workstationId": 526,
-                "pageId": 774,
-                "pageBlockId": 1806,
-                "blockRowCellId": 4032,
-                "microBlockRowCellId": 19785,
-                "elementItemId": 1463,
-                "uiElementName": "TABLE_ELEMENT",
-                "elementItemUniqueId": 1464
-            },
-            "stepParentId": 66,
-            "createdDate": "Jul 22, 2025 7:31:10 AM"
-        },
-        {
-            "id": 68,
-            "name": "save POP_1",
+            "id": 95,
+            "name": "Save POP_UP_1",
             "stepActionType": "ON_WORKSTATION_SAVE",
-            "stepOrder": 1,
+            "stepOrder": 3,
             "autoRunId": 12,
             "autoRunElementIdentifier": {
-                "id": 103,
-                "workstationId": 501
+                "id": 139,
+                "workstationId": 526
             },
-            "stepParentId": 67,
-            "createdDate": "Jul 22, 2025 7:31:39 AM"
+            "createdDate": "Jul 22, 2025 10:09:10 AM",
+            "steps": []
+        },
+        {
+            "id": 96,
+            "name": "Save Main Wizard",
+            "stepActionType": "ON_WORKSTATION_SAVE",
+            "stepOrder": 4,
+            "autoRunId": 12,
+            "autoRunElementIdentifier": {
+                "id": 140,
+                "workstationId": 525
+            },
+            "createdDate": "Jul 22, 2025 10:09:58 AM",
+            "steps": []
         }
-    ],
-    "createdAt": "Jul 22, 2025 7:29:23 AM",
-    "updatedAt": "Jul 22, 2025 7:29:23 AM"
+    ]
 }
