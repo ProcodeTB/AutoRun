@@ -73,21 +73,21 @@
                             "steps": []
                         }
                     ]
+                },
+                {
+                    "id": 173,
+                    "name": "save Pop_up_1",
+                    "stepActionType": "ON_WORKSTATION_SAVE",
+                    "stepOrder": 2,
+                    "autoRunId": 12,
+                    "autoRunElementIdentifier": {
+                        "id": 229,
+                        "workstationId": 526
+                    },
+                    "createdDate": "Jul 23, 2025 12:21:45 PM",
+                    "steps": []
                 }
             ]
-        },
-        {
-            "id": 95,
-            "name": "Save POP_UP_1",
-            "stepActionType": "ON_WORKSTATION_SAVE",
-            "stepOrder": 3,
-            "autoRunId": 12,
-            "autoRunElementIdentifier": {
-                "id": 139,
-                "workstationId": 526
-            },
-            "createdDate": "Jul 22, 2025 10:09:10 AM",
-            "steps": []
         },
         {
             "id": 96,
